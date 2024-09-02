@@ -23,3 +23,8 @@ while(sum<5){
     sum+=1;
     console.log(sum);
 }
+
+/*String Slice, Split, Join*/
+
+const rtd='Hey!Rabib'
+console.log(rtd.slice(2,6));
