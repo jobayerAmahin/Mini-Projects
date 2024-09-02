@@ -26,5 +26,10 @@ while(sum<5){
 
 /*String Slice, Split, Join*/
 
-const rtd='Hey!Rabib'
+const rtd='Hey! Rabib'
 console.log(rtd.slice(2,6));
+
+console.log(rtd.split(' '));
+
+const tds=['tr','ma','ba','us','po','wq'];
+console.log(tds.join(' '));
