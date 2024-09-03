@@ -33,3 +33,27 @@ console.log(rtd.split(' '));
 
 const tds=['tr','ma','ba','us','po','wq'];
 console.log(tds.join(' '));
+
+// Reverse String
+
+const rix='Hey! Missä sää oot? Mä mene ulos lasten kanssa';
+const rixReverse=rix.split('').reverse().join('');
+console.log(rixReverse);
+
+//Object
+
+const college={
+    name: 'vnc',
+    grp: ['1','2'],
+    unique:{
+        color:'red',
+        gpa:{
+            grade:'6',
+        }
+    }
+}
+console.log(college.unique.gpa.grade)
+
+//
+let str = "Mississippi";
+console.log(str.indexOf("i", 3));
