@@ -57,3 +57,14 @@ console.log(college.unique.gpa.grade)
 //
 let str = "Mississippi";
 console.log(str.indexOf("i", 3));
+
+//
+
+const ttt="Hey! Tässä on kevät tule";
+let c=0;
+for(let i of ttt){
+    if(i==="e"){
+        i+=1;
+    }
+}
+console.log(c);
