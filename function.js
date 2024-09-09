@@ -29,3 +29,25 @@ function getMin(number){
 }
 const result=getMin(arr);
 console.log(result);
+
+//Max of object
+
+const puhelin=[
+    {nimi: 'shawmi', hinta:18880, kamera:'12mp', kauppa:'sello'}, 
+    {nimi: 'shawmi-2', hinta:8880, kamera:'12mp', kauppa:'sello'}, 
+    {nimi: 'shawmi-3', hinta:48880, kamera:'12mp', kauppa:'sello'}, 
+    {nimi: 'shawmi-4', hinta:28880, kamera:'12mp', kauppa:'sello'}, 
+    {nimi: 'shawmi-5', hinta:38880, kamera:'12mp', kauppa:'sello'}, 
+    {nimi: 'shawmi-6', hinta:18880, kamera:'12mp', kauppa:'sello'}, 
+]
+function maxHinta(numero){
+    let maxP=numero[0];
+    for(const num of numero){
+        if(num.hinta>maxP.hinta){
+            maxP=num
+        }
+    }
+    return maxP;
+}
+const mH=maxHinta(puhelin);
+console.log(mH);
