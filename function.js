@@ -15,3 +15,17 @@ for (var i = 0; i < 5; i++) {
     console.log(i);
  }, 100);
 }
+
+//Min of array
+const arr=[23,24,25,90,34,55,64,99,20,45,11,4];
+function getMin(number){
+    let minNum=arr[0];
+    for(const ats of number){
+       if(ats<minNum){
+        minNum=ats;
+       } 
+    }
+    return minNum;
+}
+const result=getMin(arr);
+console.log(result);
