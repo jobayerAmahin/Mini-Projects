@@ -46,7 +46,13 @@ console.log(n.toFixed(2));  //--------Output
 let nArr=[1,2,3,4,5,6,7];
 nArr[2]='Jambura';
 console.log(nArr);  //--------Output
+
 nArr.pop()
+
 console.log(nArr);  //--------Output
 console.log(nArr.includes(4));  //--------Output
 console.log(Array.isArray(nArr));  //--------Output
+
+const nArr2=[0,0,0,0,0,0,0,0];
+console.log(nArr.concat(nArr2));
+
