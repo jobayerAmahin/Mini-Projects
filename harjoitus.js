@@ -34,15 +34,19 @@ let student2 = {
     pro:'wkw'
 };
 
-console.log(Object.keys(student2).length);
+console.log(Object.keys(student2).length); //--------Output
 for(let ky in student2){
-    console.log('key',ky, '|','value',student2[ky]);
+    console.log('key',ky, '|','value',student2[ky]);  //--------Output
 }
 //Taking just two values after decimal
 let n=34.93849883993939384847556;
-console.log(n.toFixed(2));
+console.log(n.toFixed(2));  //--------Output
 
 //Task of Array replacing by new element
 let nArr=[1,2,3,4,5,6,7];
 nArr[2]='Jambura';
-console.log(nArr);
+console.log(nArr);  //--------Output
+nArr.pop()
+console.log(nArr);  //--------Output
+console.log(nArr.includes(4));  //--------Output
+console.log(Array.isArray(nArr));  //--------Output
