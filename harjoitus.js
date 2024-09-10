@@ -35,3 +35,6 @@ let student2 = {
 };
 
 console.log(Object.keys(student2).length);
+for(let ky in student2){
+    console.log('key',ky, '|','value',student2[ky]);
+}
