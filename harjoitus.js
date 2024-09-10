@@ -24,3 +24,14 @@ const student = {
     }
 };
 console.log(student.physics.marks); //--------Output
+
+// Task of counting number of object properties
+let student2 = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true,
+    pro:'wkw'
+};
+
+console.log(Object.keys(student2).length);
