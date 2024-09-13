@@ -30,12 +30,12 @@ const työpaikka=[
 
 function etsiPaikka(objekti,paikanNimi){
     let uusiArray=[];
-    for(let paik of työpaikka){
-        if(paik.paikka.includes(paikanNimi)){
+    for(let paik of objekti){
+        if(paik.paikka.toLowerCase().includes(paikanNimi)){
             uusiArray.push(paik);
         }
-        return uusiArray
     }
+    return uusiArray
 }
-const result= etsiPaikka(työpaikka,'Helsinki');
+const result= etsiPaikka(työpaikka,'espoo');
 console.log(result);
